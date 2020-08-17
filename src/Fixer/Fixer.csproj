@@ -1,0 +1,26 @@
+
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Fixer</Description>
+    <Authors>KeivanDamirchi.ir</Authors>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <LangVersion>Latest</LangVersion>
+    <AssemblyName>Fixer</AssemblyName>
+    <Title>Fixer</Title>
+    <PackageId>Fixer</PackageId>
+    <PackageTags>Fixer</PackageTags>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Figgle" Version="0.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="2.2.4" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.2.0" />
+    <PackageReference Include="Scrutor" Version="3.0.2" />
+  </ItemGroup>
+
+
+</Project>
